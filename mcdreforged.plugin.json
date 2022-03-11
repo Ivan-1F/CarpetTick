@@ -1,15 +1,19 @@
 {
-    "id": "my_plugin",
+    "id": "carpet_tick",
     "version": "1.0.0",
-    "name": "My Plugin",
-    "description": "This description is a description to your plugin",
-    "author": [
-        "You"
-    ],
-    "link": "https://github.com/MCDReforged/MCDReforged-PluginTemplate",
-    "dependencies": {
+    "name": "Carpet Tick",
+    "description": {
+        "en_us": "Get server status using carpet /tick command",
+        "zh_cn": "使用 Carpet Mod 的 /tick 指令获取服务器信息"
     },
-
+    "author": [
+        "Ivan1F"
+    ],
+    "link": "https://github.com/Ivan-1F/CarpetTick",
+    "dependencies": {
+        "mcdreforged": ">=2.1.0-beta"
+    },
+    "entrypoint": "carpet_tick.entry",
     "resources": [
         "lang"
     ]
