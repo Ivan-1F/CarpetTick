@@ -13,12 +13,16 @@ def show_help(source: CommandSource):
 
 def health(source: CommandSource, ticks=100):
     server = source.get_server()
+    server.execute('carpet commandTick true')
     server.execute('tick health %s' % ticks)
+    server.execute('carpet commandTick false')
 
 
 def entities(source: CommandSource, ticks=100):
     server = source.get_server()
+    server.execute('carpet commandTick true')
     server.execute('tick entities %s' % ticks)
+    server.execute('carpet commandTick false')
 
 
 def register(server: PluginServerInterface):
