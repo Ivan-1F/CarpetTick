@@ -3,7 +3,11 @@ CarpetTick
 
 A [MCDReforged](https://github.com/Fallen-Breath/MCDReforged) (>=2.x) plugin
 
-Get server status using carpet `/tick` command
+Get server status using carpet `/tick` command without enabling `/tick rate` and `/tick wrap`
+
+Designed for carpet mod for 1.13 since there's no `/profile` command
+
+If you are using fabric-carpet, just go ahead and use `/profile` command
 
 ## Config
 
@@ -27,7 +31,11 @@ Configure file: `config/carpet_tick/config.json`
 
 一个 [MCDReforged](https://github.com/Fallen-Breath/MCDReforged) (>=2.x) 插件
 
-使用 Carpet Mod 的 `/tick` 指令获取服务器信息
+在不启用 `/tick rate` 和 `/tick wrap` 的情况下使用 Carpet Mod 的 `/tick` 指令获取服务器信息
+
+为 1.13 的 carpet mod 设计，因为没有 `/profile` 指令
+
+如果你在使用 fabric-carpet，只需继续使用 `/profile` 命令即可
 
 ## 配置
 
