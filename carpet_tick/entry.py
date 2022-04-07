@@ -25,7 +25,7 @@ def entities(source: CommandSource, ticks=100):
     server.execute('carpet commandTick false')
 
 
-def register(server: PluginServerInterface):
+def register_commands(server: PluginServerInterface):
     server.register_command(
         Literal(PREFIX)
         .requires(lambda src: src.has_permission(common.config.permission), lambda: tr('permission_denied'))
@@ -48,4 +48,5 @@ def on_info(server: PluginServerInterface, info: Info):
 
 def on_load(server: PluginServerInterface, old):
     common.load_common()
-    register(server)
+    register_commands(server)
+    server.register_help_message(PREFIX, tr("help_summary"))

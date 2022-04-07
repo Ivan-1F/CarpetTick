@@ -1,9 +1,11 @@
-carpet_tick.help_message: |
-  ---- {name} v{version} ----
-  §7{prefix}§r: 显示帮助信息
-  §7{prefix} health §6[ticks]§r: 执行 §7/tick health §6[ticks]§r
-  §7{prefix} entities §6[ticks]§r: 执行 §7/tick entities §6[ticks]§r
-  §7{prefix} h §6[ticks]§r: 执行 §7/tick health §6[ticks]§r
-  §7{prefix} e §6[ticks]§r: 执行 §7/tick entities §6[ticks]§r
-  输出将对所有玩家可见
-carpet_tick.permission_denied: 权限不足
+carpet_tick:
+  help_message: |
+    ---- {name} v{version} ----
+    §7{prefix}§r: 显示帮助信息
+    §7{prefix} health §6[ticks]§r: 执行 §7/tick health §6[ticks]§r
+    §7{prefix} entities §6[ticks]§r: 执行 §7/tick entities §6[ticks]§r
+    §7{prefix} h §6[ticks]§r: 执行 §7/tick health §6[ticks]§r
+    §7{prefix} e §6[ticks]§r: 执行 §7/tick entities §6[ticks]§r
+    输出将对所有玩家可见
+  permission_denied: 权限不足
+  help_summary: 使用 Carpet Mod 的 /tick 指令获取服务器信息

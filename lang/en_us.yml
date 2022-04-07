@@ -1,9 +1,11 @@
-carpet_tick.help_message: |
-  ---- {name} v{version} ----
-  §7{prefix}§r: Display help message
-  §7{prefix} health §6[ticks]§r: Run §7/tick health §6[ticks]§r
-  §7{prefix} entities §6[ticks]§r: Run §7/tick entities §6[ticks]§r
-  §7{prefix} h §6[ticks]§r: Run §7/tick health §6[ticks]§r
-  §7{prefix} e §6[ticks]§r: Run §7/tick entities §6[ticks]§r
-  The output will be visible for all players
-carpet_tick.permission_denied: Permission denied
+carpet_tick:
+  help_message: |
+    ---- {name} v{version} ----
+    §7{prefix}§r: Display help message
+    §7{prefix} health §6[ticks]§r: Run §7/tick health §6[ticks]§r
+    §7{prefix} entities §6[ticks]§r: Run §7/tick entities §6[ticks]§r
+    §7{prefix} h §6[ticks]§r: Run §7/tick health §6[ticks]§r
+    §7{prefix} e §6[ticks]§r: Run §7/tick entities §6[ticks]§r
+    The output will be visible for all players
+  permission_denied: Permission denied
+  help_summary: Get server status using carpet /tick command
